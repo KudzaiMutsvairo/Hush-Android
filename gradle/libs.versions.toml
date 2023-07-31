@@ -7,11 +7,19 @@ androidx-test-ext-junit = "1.1.5"
 espresso-core = "3.5.1"
 lifecycle-runtime-ktx = "2.6.1"
 activity-compose = "1.7.2"
-compose-bom = "2023.03.00"
+compose-bom = "2023.06.01"
 ksp = "1.8.10-1.0.9"
-hilt-android = "2.46.1"
-hilt-compiler = "2.46.1"
+hilt-android = "2.47"
+hilt-compiler = "2.47"
 room = "2.6.0-alpha02"
+lifecycle-viewmodel-ktx = "2.6.1"
+kotlinx-coroutines-core = "1.7.3"
+kotlinx-coroutines-android = "1.7.3"
+mockk = "1.13.5"
+hilt-navigation-compose = "1.1.0-alpha01"
+foundation = "1.6.0-alpha02"
+core-testing = "2.2.0"
+compose-destinations-core = "1.9.51"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -34,6 +42,15 @@ androidx-room-compiler = { group = "androidx.room", name = "room-compiler", vers
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
 androidx-room-testing = { group = "androidx.room", name = "room-testing", version.ref = "room" }
 androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodel-ktx" }
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinx-coroutines-core" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinx-coroutines-android" }
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-navigation-compose" }
+androidx-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "foundation" }
+androidx-core-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "core-testing" }
+compose-destinations-core = { group = "io.github.raamcosta.compose-destinations", name = "core", version.ref = "compose-destinations-core" }
+compose-destinations-ksp = { group = "io.github.raamcosta.compose-destinations", name = "ksp", version.ref = "compose-destinations-core" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
