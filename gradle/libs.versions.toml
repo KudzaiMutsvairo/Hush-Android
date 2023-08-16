@@ -1,5 +1,5 @@
 [versions]
-agp = "8.2.0-alpha09"
+agp = "8.1.0"
 kotlin = "1.8.10"
 core-ktx = "1.9.0"
 junit = "4.13.2"
@@ -20,6 +20,8 @@ hilt-navigation-compose = "1.1.0-alpha01"
 foundation = "1.6.0-alpha02"
 core-testing = "2.2.0"
 compose-destinations-core = "1.9.51"
+appcompat = "1.6.1"
+material = "1.8.0"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -51,12 +53,15 @@ androidx-foundation = { group = "androidx.compose.foundation", name = "foundatio
 androidx-core-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "core-testing" }
 compose-destinations-core = { group = "io.github.raamcosta.compose-destinations", name = "core", version.ref = "compose-destinations-core" }
 compose-destinations-ksp = { group = "io.github.raamcosta.compose-destinations", name = "ksp", version.ref = "compose-destinations-core" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 hiltAndroid = { id = "com.google.dagger.hilt.android", version.ref = "hilt-android" }
 kotlinKsp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+com-android-library = { id = "com.android.library", version.ref = "agp" }
 
 [bundles]
 

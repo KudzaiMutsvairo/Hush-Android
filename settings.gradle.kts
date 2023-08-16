@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Hush!"
 include(":app")
+include(":core")
+include(":feature:schedule")
